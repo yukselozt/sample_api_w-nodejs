@@ -1,17 +1,19 @@
+const { randomUUID } = require("crypto");
+
 module.exports = [
   {
-    id: 1,
-    isim: "Kemal Sunal",
-    filmler: ["Sakar Şakir", "Üç Kağıtçı", "Tosun Paşa"],
+    id: randomUUID(),
+    name: "Kemal Sunal",
+    movies: ["Sakar Şakir", "Üç Kağıtçı", "Tosun Paşa"],
   },
   {
-    id: 2,
-    isim: "Şener Şen",
-    filmler: ["Davaro", "Kibar Feyzo", "Tosun Paşa"],
+    id: randomUUID(),
+    name: "Şener Şen",
+    movies: ["Davaro", "Kibar Feyzo", "Tosun Paşa"],
   },
   {
-    id: 3,
-    isim: "Adile Naşit",
-    filmler: ["Davaro", "Neşeli Günler", "Süt Kardeşler"],
+    id: randomUUID(),
+    name: "Adile Naşit",
+    movies: ["Davaro", "Neşeli Günler", "Süt Kardeşler"],
   },
 ];
