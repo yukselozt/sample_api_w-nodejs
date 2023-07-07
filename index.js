@@ -42,8 +42,3 @@ server.get("/aktorler/:id", (request, response) => {
 server.listen(5000, () => {
   console.log("5000 Portuna gelen istekler dinleniyor...");
 });
-
-
-server.listen(5000, () => {
-  console.log("5000 Portuna gelen istekler dinleniyor...");
-});
